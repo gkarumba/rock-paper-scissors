@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1a611a;
+}
+header{
+    background: rgba(27, 218, 224, 0.87);
+    padding:20px;
+}
+header > h1 {
+    color: #1a611a;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.score-board {
+    margin:20px auto;
+    border: 3px solid black;
+    border-radius: 4px;
+    text-align: center;
+    width:200px;
+    color: red;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
+.badge{
+    background: yellow;
+    color: #010a01;
+    font-size: 15px;
+    padding: 2px 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#user-label {
+     position: absolute;
+     top: 30px;
+     left: -25px;
+ }
+#comp-label {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+}
+.result {
+    font-size: 40px;
+    color: #ecf010;
+}
+.result > p{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.choices{
+    text-align: center;
+    margin-top: 50px 0;
+    
+}
+.choice{
+    display: inline-block;
+    border: 15px solid rgb(236, 222, 23);
+    border-radius: 40px;
+    margin: 0 20px;
+    padding: 30px;
+    transition: all 0.2s ease;
+}
+.choice:hover{
+    background: rgb(236, 222, 23);
+    cursor: pointer;
+}
+#action-message{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    margin-top: 10px;
+}
+.blue-glow{
+    border: 4px solid blue;
+    box-shadow: 0 0 10px #31b43a;
+}
+.red-glow{
+    border: 4px solid red;
+    box-shadow: 0 0 10px #31b43a;
+}
+.green-glow{
+    border: 4px solid green;
+    box-shadow: 0 0 10px #31b43a;
+}
